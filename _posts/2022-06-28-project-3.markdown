@@ -5,7 +5,11 @@ date: 2022-06-28
 img: rpg.png
 alt: image-alt
 category: Programing
+engine: Unity
 itchio: https://finalsynapse.itch.io/rts-game
+github: https://github.com/AIE-DESIGN-2022/DPF_Assessment_Lukasz
+exampleCode1: https://raw.githubusercontent.com/AIE-DESIGN-2022/DPF_Assessment_Lukasz/main/DPF_Assessment/Assets/Scripts/Controllers/GameCameraController.cs
+exampleCode2: https://raw.githubusercontent.com/AIE-DESIGN-2022/DPF_Assessment_Lukasz/main/DPF_Assessment/Assets/Scripts/Controllers/EnemyAIController.cs
 description: ​An "Age of Empires" clone I made for Design Prototype Fundamentals class while studying at the Academy of Interactive Entertainment.
 ---
 ... stuff

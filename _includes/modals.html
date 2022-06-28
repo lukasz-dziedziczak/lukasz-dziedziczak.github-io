@@ -19,11 +19,11 @@
                             <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                <!--{% if post.category %}
+                                {% if post.engine %}
                                 <li>
-                                    Skill: {{ post.category }}
+                                    Engine: {{ post.engine }}
                                 </li>
-                                {% endif %}-->
+                                {% endif %}
                                 {% if post.itchio %}
                                 <li>
                                     <strong>
@@ -35,6 +35,27 @@
                                 <li>
                                     <strong>
                                         <a href="{{ post.itchio }}">YouTube Video</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                                {% if post.github %}
+                                <li>
+                                    <strong>
+                                        <a href="{{ post.github }}">GitHub Repo</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                                {% if post.exampleCode1 %}
+                                <li>
+                                    <strong>
+                                        <a href="{{ post.exampleCode1 }}">Code Example 1</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                                {% if post.exampleCode2 %}
+                                <li>
+                                    <strong>
+                                        <a href="{{ post.exampleCode2 }}">Code Example 2</a>
                                     </strong>
                                 </li>
                                 {% endif %}
