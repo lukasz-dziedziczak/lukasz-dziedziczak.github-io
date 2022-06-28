@@ -4,7 +4,7 @@ email: wukash@gmail.com
 url: https://lukasz.website
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Game Designer - Game Programmer"
+skills: "Game Designer - Game Programmer - Game Producer"
 meta_author: Lukasz Dziedziczak
 
 # Google webmaster tools
@@ -45,7 +45,7 @@ social:
     url: https://github.com/lukasz-dziedziczak
 
 # Postal address (add as many lines as necessary)
-#address:
+address:
   - line: Adelaide, Australia
 
 # Credits content
