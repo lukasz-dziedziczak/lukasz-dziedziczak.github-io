@@ -1,10 +1,11 @@
----
+﻿---
 layout: default
 modal-id: 3
 date: 2022-06-28
 img: rpg.png
 alt: image-alt
 category: Programing
-description: An Age of Empires clone made as a project for Design Prototype Fundementals class. 
+itchio: https://finalsynapse.itch.io/rts-game
+description: ​An "Age of Empires" clone I made for Design Prototype Fundamentals class while studying at the Academy of Interactive Entertainment.
 ---
 ... stuff

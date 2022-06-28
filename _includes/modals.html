@@ -19,10 +19,22 @@
                             <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
+                                <!--{% if post.category %}
+                                <li>
+                                    Skill: {{ post.category }}
+                                </li>
+                                {% endif %}-->
                                 {% if post.itchio %}
                                 <li>
                                     <strong>
-                                        <a href="{{ post.itchio }}">Itch.io</a>
+                                        <a href="{{ post.itchio }}">Download Build</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                                {% if post.youtube %}
+                                <li>
+                                    <strong>
+                                        <a href="{{ post.itchio }}">YouTube Video</a>
                                     </strong>
                                 </li>
                                 {% endif %}

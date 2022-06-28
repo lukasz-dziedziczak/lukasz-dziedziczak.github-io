@@ -5,7 +5,8 @@ date: 2022-05-09
 img: shooter.png
 alt: image-alt
 category: Level Design
-itchio: ttps://finalsynapse.itch.io/cloudbourne
+itchio: https://finalsynapse.itch.io/cloudbourne
+youtube: https://youtu.be/ZHShDB40gWQ
 description: A ​level I made at the end of the level design module as I completed 1st year of Game Production and Design at the Academy of Interactive Entertainment.
 ---
 ...
