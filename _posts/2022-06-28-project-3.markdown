@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 2
+modal-id: 3
 date: 2022-06-28
 img: rpg.png
 alt: image-alt
-service: Programing
+category: Programing
 description: An Age of Empires clone made as a project for Design Prototype Fundementals class. 
 ---
-Extra stuff in post
+... stuff
