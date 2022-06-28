@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    <body id="page-top" class="index">
+<body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
     {% include portfolio_grid.html %}
@@ -18,5 +18,8 @@
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}
-    </body>
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+</body>
 </html>
