@@ -10,6 +10,8 @@ itchio: https://finalsynapse.itch.io/rts-game
 github: https://github.com/AIE-DESIGN-2022/DPF_Assessment_Lukasz
 exampleCode1: https://raw.githubusercontent.com/AIE-DESIGN-2022/DPF_Assessment_Lukasz/main/DPF_Assessment/Assets/Scripts/Controllers/GameCameraController.cs
 exampleCode2: https://raw.githubusercontent.com/AIE-DESIGN-2022/DPF_Assessment_Lukasz/main/DPF_Assessment/Assets/Scripts/Controllers/EnemyAIController.cs
+youtube: https://youtu.be/e_44r06Xzy8
+youtube2: https://youtu.be/QadUWMrNtiI
 description: ​An "Age of Empires" clone I made for Design Prototype Fundamentals class while studying at the Academy of Interactive Entertainment.
 ---
 ... stuff

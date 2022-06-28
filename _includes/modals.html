@@ -31,6 +31,13 @@
                                     </strong>
                                 </li>
                                 {% endif %}
+                                {% if post.github %}
+                                <li>
+                                    <strong>
+                                        <a href="{{ post.github }}">GitHub Repo</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
                                 {% if post.youtube %}
                                 <li>
                                     <strong>
@@ -38,10 +45,10 @@
                                     </strong>
                                 </li>
                                 {% endif %}
-                                {% if post.github %}
+                                {% if post.youtube2 %}
                                 <li>
                                     <strong>
-                                        <a href="{{ post.github }}">GitHub Repo</a>
+                                        <a href="{{ post.youtube2 }}">YouTube Video 2</a>
                                     </strong>
                                 </li>
                                 {% endif %}
