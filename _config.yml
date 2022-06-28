@@ -2,8 +2,8 @@
 title: Lukasz Dziedziczak
 email: wukash@gmail.com
 url: https://lukasz.website
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+#description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+#keywords: "your keywords, separated by commas"
 skills: "Game Designer - Game Programmer - Game Producer"
 meta_author: Lukasz Dziedziczak
 
@@ -39,6 +39,8 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: youtube
+    url: https://www.youtube.com/channel/UCq2JNdiePwD3dXE1v0fLYhg
   - title: instagram
     url: https://www.instagram.com/final_synapse
   - title: github
