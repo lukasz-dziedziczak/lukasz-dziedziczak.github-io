@@ -1,0 +1,10 @@
+﻿---
+layout: default
+modal-id: 1
+date: 2022-05-09
+img: shooter.png
+alt: image-alt
+service: Level Design
+itchio: cloudbourne
+description: A ​level I made at the end of the level design module as I completed 1st year of Game Production and Design at the Academy of Interactive Entertainment.
+---
