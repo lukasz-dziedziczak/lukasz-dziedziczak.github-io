@@ -8,9 +8,9 @@
     "\\js",
     "\\mail",
     "\\_includes",
-    "\\_includes\\css",
-    "\\_layouts"
+    "\\_layouts",
+    "\\_posts"
   ],
-  "SelectedNode": "\\_includes\\about.html",
+  "SelectedNode": "\\_posts\\2022-06-28-project-3.markdown",
   "PreviewInSolutionExplorer": false
 }

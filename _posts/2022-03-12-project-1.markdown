@@ -7,6 +7,8 @@ alt: image-alt
 category: Unreal Engine
 engine: Unreal
 itchio: https://finalsynapse.itch.io/ur
+github: https://github.com/lukasz-dziedziczak/Ur
+exampleCode1: https://github.com/lukasz-dziedziczak/Ur/blob/main/Source/Ur/UrPlayerController.cpp
 description: Based on the ancient game of Ur two players face of in a race to get their pieces across 14 tiles to end of the board. Full instructions found in-game. This is a two-player game to play locally at one computer.
 ---
 ...
