@@ -28,7 +28,7 @@ author     : Lukasz Dziedziczak
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: G-ZK9NLY8MYF #Google Analytics tracking code here
+  google: #G-ZK9NLY8MYF #Google Analytics tracking code here
 
 collections:
   portfolio:
