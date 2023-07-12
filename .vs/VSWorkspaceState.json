@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\_data",
+    "\\_includes",
+    "\\_layouts",
+    "\\_portfolio"
   ],
+  "SelectedNode": "\\_portfolio\\project2_finalExtract.markdown",
   "PreviewInSolutionExplorer": false
 }
