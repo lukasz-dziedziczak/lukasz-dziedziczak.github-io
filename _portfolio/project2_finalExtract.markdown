@@ -12,6 +12,8 @@ image: assets/img/portfolio/finalExtract.png
 
 ### Links
 
+[Download Build](https://1drv.ms/u/s!AiqvwHC8zbjChMpjEPnMFinJJWqxkA?e=q90Yq6)
+
 [Download Build from Itch.io](https://finalsynapse.itch.io/final-extraction)
 
 [Playthrough on YouTube](https://youtu.be/2uWZXgtiguU)
