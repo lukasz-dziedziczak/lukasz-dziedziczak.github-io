@@ -14,6 +14,6 @@ image: assets/img/portfolio/finalExtract.png
 
 [Download Build from Itch.io](https://finalsynapse.itch.io/final-extraction)
 
-[Playthrough on YouTube](https://youtu.be/dCwXbHO7y18)
+[Playthrough on YouTube](https://youtu.be/2uWZXgtiguU)
 
 [GitHub Project](https://github.com/LukaszDziedziczakAIE/ClientProduction)
