@@ -8,7 +8,7 @@ title: HyperJunkie
 subtitle: Production Example
 image: assets/img/portfolio/hyperJunkie.png
 ---
-This was the end of year project for first years on which I worked as the producer of the project.
+This was the end of year project for first years on which I worked as the producer of the project, with a team of 3 artists, 2 designers and 1 programmer. Full credits to all involved found in-game. 
 
 
 

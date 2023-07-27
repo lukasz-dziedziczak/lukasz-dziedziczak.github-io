@@ -8,7 +8,7 @@ title: Final Extraction
 subtitle: Game Design Example
 image: assets/img/portfolio/finalExtract.png
 ---
-?This was completed as part of the "Production for Clients" module as part completing an Advance Diploma of Game Development at AIE. This project was created entirely out of free assets and almost entirely solo by myself.
+This was completed as part of the "Production for Clients" module as part my studies. This project was created entirely out of free art assets and almost entirely solo by myself. I programmed and designed the game. There was another designer on the project but dropped out early. The did create the art asset of the central radio tower seen in the game.
 
 ### Links
 

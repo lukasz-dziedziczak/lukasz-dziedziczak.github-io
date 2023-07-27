@@ -8,7 +8,7 @@ title: Real-Time Strategy Game
 subtitle: Coding and AI Example
 image: assets/img/portfolio/rts.png
 ---
-An "Age of Empires" clone I made for Design Prototype Fundamentals class while studying at the Academy of Interactive Entertainment. Note the game currently has no sound.
+An "Age of Empires" clone I made for Design Prototype Fundamentals class during my studies. Note the game currently has no sound. This project was completed solo, with me programming and designing the game. The art is from Synty asets store.
 
 ### Links
 
