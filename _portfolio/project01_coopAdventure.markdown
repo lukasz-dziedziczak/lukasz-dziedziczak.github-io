@@ -8,9 +8,10 @@ title: Coop Adventure
 subtitle: UE5 Multiplayer Example
 image: assets/img/portfolio/coopAdventure.png
 ---
-Just a quick game we threw together in three days.
+This is the result of the Coop Adventure Game Course on GameDev.tv
 
-Your goal is to collect all the bottles. You will need to solve platforming puzzles, pushing crates into place, to get to all the bottles. There are enemies patrolling, which will shoot you on sight. You may throw your collected bottles at them to knock them out.
+This is a multiplayer Unreal Engine 5 game. Please note you will need to have Steam installed and running in order to play with another person.
+Please note you need two people to do the puzzels and complete the level.
 
 ### Links
 
