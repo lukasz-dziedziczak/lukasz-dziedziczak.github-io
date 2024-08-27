@@ -17,6 +17,8 @@ en: &DEFAULT_EN
       section: about
     - title: "Itch.io"
       url: https://finalsynapse.itch.io
+    - title: "ArtStation"
+      url: https://www.artstation.com/final_synapse
 en-US:
   <<: *DEFAULT_EN
 en-CA:
