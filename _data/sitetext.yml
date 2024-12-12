@@ -28,13 +28,19 @@ en: &DEFAULT_EN
         desc: ""
         image: assets/img/unreal-engine.png
       - title: "Programming"
-        desc: "C# / C++ / Java"
+        desc: ""
         image: assets/img/coding.png
 
   portfolio:
     title: "Portfolio"
     text: ""
     section: portfolio
+    closebutton: "Close Project"
+
+  gameJam:
+    title: "Game Jams"
+    text: ""
+    section: gameJam
     closebutton: "Close Project"
 
   timeline:

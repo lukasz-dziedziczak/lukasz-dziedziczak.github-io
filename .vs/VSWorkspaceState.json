@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\img",
     "\\_data",
+    "\\_gameJam",
     "\\_includes",
     "\\_layouts",
     "\\_portfolio"
   ],
-  "SelectedNode": "\\_data\\navigation.yml",
+  "SelectedNode": "\\_layouts\\home.html",
   "PreviewInSolutionExplorer": false
 }
