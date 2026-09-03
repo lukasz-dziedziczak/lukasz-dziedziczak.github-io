@@ -1,0 +1,22 @@
+{% assign home_url = '/' | relative_url %}
+<header class="site-header{% unless page.url == '/' %} site-header-solid{% endunless %}">
+  <a class="identity" href="{{ home_url }}" aria-label="Back to the homepage">
+    <span class="identity-mark" aria-hidden="true">{{ site.data.resume.initials }}</span>
+    <span>{{ site.data.resume.name }}</span>
+  </a>
+  <nav class="desktop-nav" aria-label="Primary navigation">
+    <a href="{{ '/about/' | relative_url }}">About</a>
+    <a href="{{ home_url }}#experience">Experience</a>
+    <a href="{{ home_url }}#work">Projects</a>
+    <a href="{{ home_url }}#contact">Contact</a>
+  </nav>
+  <details class="mobile-nav">
+    <summary aria-label="Open navigation"><span></span><span></span></summary>
+    <nav aria-label="Mobile navigation">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ home_url }}#experience">Experience</a>
+      <a href="{{ home_url }}#work">Projects</a>
+      <a href="{{ home_url }}#contact">Contact</a>
+    </nav>
+  </details>
+</header>

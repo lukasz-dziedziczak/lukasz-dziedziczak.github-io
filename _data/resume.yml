@@ -1,0 +1,101 @@
+# This is the only file you need to edit to personalise the website.
+# The content below is based on the existing and archived lukasz.website portfolio.
+
+name: "Łukasz Dziedziczak"
+initials: "LD"
+role: "Software developer"
+location: "Adelaide, South Australia"
+
+intro: >-
+  I work across software, technical systems, and interactive media—from enterprise
+  IT to independent game development.
+
+# Add an address to enable the email button, for example: hello@example.com
+email: ""
+
+links:
+  - label: "LinkedIn"
+    url: "https://www.linkedin.com/in/lukaszdzi/"
+  - label: "Instagram"
+    url: "https://www.instagram.com/lukasz_dziedziczak/"
+  - label: "GitHub"
+    url: "https://github.com/lukasz-dziedziczak"
+  - label: "Emberline Studios"
+    url: "https://emberlinestudios.com.au/"
+  - label: "Itch.io"
+    url: "https://emberlinestudios.itch.io/"
+
+experience:
+  - period: "Feb 2020 — Jun 2020"
+    role: "Help Desk Officer"
+    company: "Primary Industries and Regions South Australia"
+    location: "South Australian Government"
+    summary: >-
+      Frontline support, incident triage, account assistance, and endpoint troubleshooting.
+  - period: "Oct 2018 — Nov 2019"
+    role: "ICT Support Officer"
+    company: "Saab Australia"
+    location: "Defence sector"
+    summary: >-
+      Desktop and systems support in a defence environment, including a company-wide Windows deployment.
+  - period: "Mar 2017 — Sep 2017"
+    role: "Service Desk Dispatcher"
+    company: "Subnet"
+    location: "IT services"
+    summary: >-
+      Triaged requests, set priorities, assigned work, and kept customers informed.
+  - period: "Jan 2017 — Feb 2017"
+    role: "Help Desk Operator"
+    company: "Hills Limited"
+    location: "Enterprise support"
+    summary: >-
+      User support and issue resolution in an enterprise environment.
+  - period: "Sep 2015 — Nov 2016"
+    role: "Service Desk Agent"
+    company: "Hewlett Packard Enterprise"
+    location: "Enterprise support"
+    summary: >-
+      Diagnosed and progressed incidents within a large enterprise service desk.
+  - period: "Jul 2013 — Jul 2015"
+    role: "IT Technician"
+    company: "IPau"
+    location: "Technical services"
+    summary: >-
+      Hands-on support across client software, operating systems, and networks.
+  - period: "Apr 2012 — Jul 2013"
+    role: "Technical Support Engineer"
+    company: "Apt-Tech"
+    location: "Technical services"
+    summary: >-
+      Technical support across user and system issues.
+
+current_work:
+  period: "Jul 2025 — Present"
+  role: "Founder & Software Developer"
+  company: "Emberline Studios"
+  summary: >-
+    Independent development and publishing through Emberline Studios. Released
+    Proxima Divide and Exfil Void on Steam, with work spanning programming,
+    systems design, testing, production, and release.
+
+skills:
+  - title: "Software engineering"
+    items: ["C++ and C#", "Object-oriented design", "Architecture & debugging", "Testing & code review"]
+  - title: "Engines & delivery"
+    items: ["Unreal Engine", "Unity", "Steamworks", "Git & CI/CD", "Wwise"]
+  - title: "Systems & operations"
+    items: ["Windows & Linux", "Active Directory", "Networking", "Incident & change management", "ISO/IEC 27001 exposure"]
+
+education:
+  - qualification: "Bachelor of Games Development (Games Design)"
+    institution: "SAE University College"
+    period: "2025"
+  - qualification: "Advanced Diploma in Information Technology (Network Security)"
+    institution: "TAFE SA"
+    period: "2013"
+  - qualification: "Diploma of Screen and Media"
+    institution: "Academy of Interactive Entertainment"
+    period: "2022"
+  - qualification: "Diploma of Visual Arts"
+    institution: "Academy of Interactive Entertainment"
+    period: "2022"

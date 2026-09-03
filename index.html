@@ -1,0 +1,113 @@
+---
+layout: default
+image:
+  path: /assets/images/og.png
+  alt: "Łukasz Dziedziczak — Software, systems and games"
+---
+{% assign resume = site.data.resume %}
+{% assign projects = site.projects | sort: 'order' %}
+
+<main id="main">
+  <section class="hero career-hero" id="top" aria-labelledby="hero-title">
+    <h1 id="hero-title" class="reveal reveal-delay-1">
+      <span>{{ resume.name }}</span>
+      The interesting problems<br>are rarely tidy<em>.</em>
+    </h1>
+    <div class="hero-lower reveal reveal-delay-2">
+      <p class="hero-intro">{{ resume.intro }}</p>
+      <div class="hero-meta">
+        <strong>{{ resume.location }}</strong>
+        <span>{{ resume.role }}</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="about-link-row">
+    <a href="{{ '/about/' | relative_url }}">About Łukasz <span aria-hidden="true">→</span></a>
+  </div>
+
+  <section class="section simple-section experience" id="experience" aria-labelledby="experience-title">
+    <div class="section-body">
+      <h2 id="experience-title">Experience</h2>
+      <article class="current-work">
+        <div>
+          <span>{{ resume.current_work.period }}</span>
+          <strong>{{ resume.current_work.company }}</strong>
+        </div>
+        <div>
+          <h3>{{ resume.current_work.role }}</h3>
+          <p>{{ resume.current_work.summary }}</p>
+        </div>
+      </article>
+      <details class="previous-experience">
+        <summary><span><strong>Previous experience</strong><small>2012 — 2020</small></span></summary>
+        <div class="timeline">
+          {% for item in resume.experience %}
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span>{{ item.period }}</span>
+              </div>
+              <div class="timeline-content">
+                <h3>{{ item.role }}</h3>
+                <div class="company">{{ item.company }}</div>
+                <p>{{ item.summary }}</p>
+              </div>
+            </article>
+          {% endfor %}
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section class="portfolio-index" id="work" aria-labelledby="work-title">
+    <div class="portfolio-intro">
+      <h2 id="work-title">Selected work</h2>
+    </div>
+
+    <div class="case-grid">
+      {% for project in projects %}
+        <a class="case-card{% if forloop.first %} case-card-featured{% endif %}" href="{{ project.url | relative_url }}">
+          <div class="case-image">
+            <img src="{{ project.cover | relative_url }}" alt="{{ project.cover_alt }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+          </div>
+          <div class="case-info">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.subtitle }}</p>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section simple-section capabilities" aria-labelledby="capabilities-title">
+    <div class="section-body">
+      <h2 id="capabilities-title">Technical background</h2>
+      <ul class="capability-list">{% for group in resume.skills %}{% for item in group.items %}<li>{{ item }}</li>{% endfor %}{% endfor %}</ul>
+      <div class="education">
+        <h2>Education</h2>
+        {% for item in resume.education %}
+          <div class="education-row">
+            <div><strong>{{ item.qualification }}</strong><span>{{ item.institution }}</span></div>
+            <span>{{ item.period }}</span>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="contact-copy">
+      <h2 id="contact-title">Contact</h2>
+      <p>For enquiries or collaboration.</p>
+    </div>
+    <div class="contact-actions">
+      {% if resume.email != "" %}<a class="primary-button" href="mailto:{{ resume.email }}">Start a conversation <span aria-hidden="true">↗</span></a>{% endif %}
+      {% for link in resume.links %}<a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.label }} <span aria-hidden="true">↗</span></a>{% endfor %}
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>© {{ 'now' | date: '%Y' }} {{ resume.name }}</span>
+  <span>Adelaide, South Australia</span>
+</footer>

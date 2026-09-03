@@ -1,14 +1,27 @@
----
-layout: default
----
-{% include nav.html %}
-
-{% if page.background == "grey" or page.background == "gray" %}
-<script>
-document.getElementById("page-top").className="bg-light";
-</script>
-{% endif %}
-
-<div class="container" id="pagecontainer">
-{{ content }}
-</div>
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0c1116">
+    {% seo %}
+    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include header.html %}
+    <main id="main" class="text-page">
+      <header>
+        {% if page.kicker %}<div class="project-eyebrow">{{ page.kicker }}</div>{% endif %}
+        <h1>{{ page.title }}</h1>
+        {% if page.intro %}<p>{{ page.intro }}</p>{% endif %}
+      </header>
+      <article>{{ content }}</article>
+    </main>
+    <footer>
+      <span>© {{ 'now' | date: '%Y' }} {{ site.data.resume.name }}</span>
+      <span>Adelaide, South Australia</span>
+    </footer>
+  </body>
+</html>

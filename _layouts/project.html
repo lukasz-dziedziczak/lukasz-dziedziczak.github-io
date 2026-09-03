@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0c1116">
+    {% seo %}
+    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include header.html %}
+    <main id="main" class="project-page">
+      <header class="project-hero">
+        <a class="back-link" href="{{ '/' | relative_url }}#work">← All projects</a>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.subtitle }}</p>
+        <div class="project-summary-meta">{{ page.year }} · {{ page.role }} · {{ page.engine }}</div>
+      </header>
+      <figure class="project-cover">
+        <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt }}">
+      </figure>
+      <article class="project-story">
+        {{ content }}
+        {% if page.links %}
+          <div class="project-links" aria-label="Project links">
+            {% for link in page.links %}
+              <a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.label }} <span aria-hidden="true">↗</span></a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </article>
+      <nav class="next-project" aria-label="Continue browsing">
+        <a href="{{ '/' | relative_url }}#work">View all selected work <span aria-hidden="true">→</span></a>
+      </nav>
+    </main>
+    <footer>
+      <span>© {{ 'now' | date: '%Y' }} {{ site.data.resume.name }}</span>
+      <span>Adelaide, South Australia</span>
+    </footer>
+  </body>
+</html>
