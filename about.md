@@ -4,6 +4,10 @@ title: "About"
 intro: "Software developer in Adelaide, working across systems, games, and interactive media."
 description: "About Łukasz Dziedziczak, an Adelaide-based software developer and founder of Emberline Studios."
 permalink: /about/
+portrait: /assets/images/profile-retouched.png
+portrait_width: 1024
+portrait_height: 1536
+portrait_alt: "Black-and-white portrait of Łukasz Dziedziczak"
 ---
 
 My work has moved between technical and creative disciplines. I began in IT support and operations, spending more than eight years across private industry, government, and defence.

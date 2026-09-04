@@ -12,10 +12,17 @@
     <a class="skip-link" href="#main">Skip to content</a>
     {% include header.html %}
     <main id="main" class="text-page">
-      <header>
+      <header{% if page.portrait %} class="text-page-header-portrait"{% endif %}>
+        <div class="text-page-heading">
         {% if page.kicker %}<div class="project-eyebrow">{{ page.kicker }}</div>{% endif %}
         <h1>{{ page.title }}</h1>
         {% if page.intro %}<p>{{ page.intro }}</p>{% endif %}
+        </div>
+        {% if page.portrait %}
+          <div class="about-portrait">
+            <img src="{{ page.portrait | relative_url }}" alt="{{ page.portrait_alt | escape }}" width="{{ page.portrait_width | default: 2171 }}" height="{{ page.portrait_height | default: 3256 }}" decoding="async">
+          </div>
+        {% endif %}
       </header>
       <article>{{ content }}</article>
     </main>
