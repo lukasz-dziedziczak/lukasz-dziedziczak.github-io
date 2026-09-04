@@ -21,6 +21,7 @@
       <figure class="project-cover">
         <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt }}">
       </figure>
+      {% include project-videos.html %}
       <article class="project-story">
         {{ content }}
         {% if page.links %}

@@ -12,6 +12,11 @@ format: "PC · Academic project"
 cover: /assets/images/projects/dark-revelations.jpg
 cover_alt: "Dark Revelations third-person horror gameplay"
 tags: ["Unreal Engine", "Narrative design", "Combat"]
+videos:
+  - title: "Final build — female character"
+    youtube_id: "LCcSTJb88Oc"
+  - title: "Final build — male character"
+    youtube_id: "Z45JmpCKPko"
 links:
   - label: "Download build"
     url: "https://drive.google.com/file/d/16LeYnKSrHgiFTHz_Amz8QUSJhKuQFQUd/view?usp=drive_link"

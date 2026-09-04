@@ -12,6 +12,12 @@ format: "Windows · Steam release"
 cover: /assets/images/projects/proxima-divide.jpg
 cover_alt: "Interior of the spacecraft in Proxima Divide"
 tags: ["Unreal Engine 5", "C++", "Survival systems"]
+videos:
+  - title: "Gameplay trailer"
+    youtube_id: "BVkZkN1-AGY"
+  - title: "Capstone playthrough"
+    description: "Development footage from the academic version, before the commercial release."
+    youtube_id: "_DDee65HAqI"
 links:
   - label: "Steam store"
     url: "https://store.steampowered.com/app/3819600/Proxima_Divide/"

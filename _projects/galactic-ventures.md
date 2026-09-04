@@ -12,6 +12,14 @@ format: "Android · Open beta"
 cover: /assets/images/projects/galactic-ventures.jpg
 cover_alt: "Galactic Ventures mobile asteroid mining game"
 tags: ["Mobile", "Procedural systems", "Economy"]
+videos:
+  - title: "Mobile gameplay preview"
+    portrait: true
+    sources:
+      - url: "https://galacticventuresgame.github.io/assets/videos/preview.webm"
+        type: "video/webm"
+      - url: "https://galacticventuresgame.github.io/assets/videos/preview.mov"
+        type: "video/quicktime"
 links:
   - label: "Project website"
     url: "https://galacticventuresgame.github.io/"

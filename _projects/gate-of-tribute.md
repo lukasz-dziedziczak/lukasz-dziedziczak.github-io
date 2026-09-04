@@ -12,6 +12,11 @@ format: "Windows · 10-day game jam"
 cover: /assets/images/projects/gate-of-tribute.png
 cover_alt: "Top-down production and road network in Gate of Tribute"
 tags: ["Unreal Engine 5", "C++", "Systems design"]
+videos:
+  - title: "Game jam teaser"
+    youtube_id: "mmZgyTCH7Iw"
+  - title: "Gameplay walkthrough"
+    youtube_id: "S42P8nXUSS0"
 links:
   - label: "Playable build"
     url: "https://emberlinestudios.itch.io/gate-of-tribute"

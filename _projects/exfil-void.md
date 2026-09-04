@@ -13,6 +13,9 @@ format: "Windows · Steam release"
 cover: /assets/images/projects/exfil-void.jpg
 cover_alt: "Armoured character inside a derelict space station in Exfil Void"
 tags: ["C++", "Procedural systems", "Steamworks"]
+videos:
+  - title: "Gameplay teaser"
+    youtube_id: "wzYZSpIREbU"
 links:
   - label: "Steam store"
     url: "https://store.steampowered.com/app/4445140/Exfil_Void/"

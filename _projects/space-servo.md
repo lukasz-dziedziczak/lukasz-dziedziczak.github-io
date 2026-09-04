@@ -12,6 +12,12 @@ format: "PC · Team project"
 cover: /assets/images/projects/space-servo.jpg
 cover_alt: "Space Servo petrol station management gameplay"
 tags: ["Unity", "Economy design", "Production"]
+videos:
+  - title: "Gameplay teaser"
+    youtube_id: "BDePHlHohlU"
+  - title: "Tutorial walkthrough"
+    description: "Week 12 development build."
+    youtube_id: "95ILsx0MQF0"
 links:
   - label: "Download build"
     url: "https://drive.google.com/file/d/1l2eMP5Vbr8V4QzKEuBf4qS3yJLqGU233/view?usp=drive_link"

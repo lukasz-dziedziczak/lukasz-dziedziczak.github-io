@@ -1,0 +1,39 @@
+{% if page.videos and page.videos.size > 0 %}
+  <section class="project-videos" aria-label="Project videos">
+    <div class="project-video-grid{% if page.videos.size == 1 %} project-video-grid-single{% endif %}">
+      {% for video in page.videos %}
+        <figure class="project-video{% if video.portrait %} project-video-portrait{% endif %}">
+          <div class="project-video-player">
+            {% if video.youtube_id %}
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/{{ video.youtube_id | escape }}"
+                title="{{ page.title | escape }} — {{ video.title | escape }}"
+                width="560" height="315" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                allowfullscreen></iframe>
+            {% else %}
+              <video controls playsinline preload="metadata"
+                aria-label="{{ page.title | escape }} — {{ video.title | escape }}"
+                {% if video.portrait %}width="1080" height="1920"{% endif %}>
+                {% for source in video.sources %}
+                  <source src="{{ source.url | escape }}" type="{{ source.type | escape }}">
+                {% endfor %}
+                Your browser does not support this video. Use the link below to watch it.
+              </video>
+            {% endif %}
+          </div>
+          <figcaption>
+            <h2>{{ video.title | escape }}</h2>
+            {% if video.description %}<p>{{ video.description | escape }}</p>{% endif %}
+            {% if video.youtube_id %}
+              <a href="https://www.youtube.com/watch?v={{ video.youtube_id | escape }}" target="_blank" rel="noopener noreferrer">Watch on YouTube <span aria-hidden="true">↗</span></a>
+            {% else %}
+              <a href="{{ video.sources.first.url | escape }}" target="_blank" rel="noopener noreferrer">Open video <span aria-hidden="true">↗</span></a>
+            {% endif %}
+          </figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

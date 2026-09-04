@@ -12,6 +12,9 @@ format: "Meta Quest 2"
 cover: /assets/images/projects/vr-training.jpg
 cover_alt: "SA Power Networks virtual reality training environment"
 tags: ["Virtual reality", "Training", "Interaction design"]
+videos:
+  - title: "Insulator-change training prototype"
+    youtube_id: "qQa24EYAdhs"
 ---
 
 ## Overview
